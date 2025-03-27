@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/criar-conta', function () {
+    return view('criar-conta');
+});
 
 Route::get('/teste', function () {
     return "o código foi testado";
