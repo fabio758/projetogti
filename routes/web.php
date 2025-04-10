@@ -18,7 +18,7 @@ Route::post('/salva-conta', function (Request $request) {
     $user->save();
     return "Usuário salvo com sucesso";
 })->name('salva-conta');
-
+//teste
 Route::get('/teste', function () {
     return "o código foi testado";
 });
