@@ -77,3 +77,6 @@ Route::get('/subtração/{num1}/{num2}', function ($num1, $num2) {
 Route::get('/multiplicação/{num1}/{num2}', function ($num1, $num2) {
     return 'a multiplicação é: '.$num1 * $num2;
 });
+Route::get('/cadastra-equipe', function () {
+    return view('cadastra-equipe');
+})->name('cadastra-equipe');
